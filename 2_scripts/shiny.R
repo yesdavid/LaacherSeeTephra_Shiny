@@ -24,14 +24,25 @@ tidyr::pivot_longer(data = LSTbase,
 countries <- unique(LSTbase$Country)
 
 
-set.seed(1)
-ggpal <- randomcoloR::distinctColorPalette(length(phases))
+# set.seed(1)
+# ggpal <- randomcoloR::distinctColorPalette(length(phases))
+# names(ggpal) <- phases
+
+ggpal <- c("LLST" = "#FF0000",
+           "MLST" = "#DF7850", 
+           "MLST-A" = "#CA5B85", 
+           "MLST-B" = "#BF4CA0", 
+           "MLST-C" = "#B53DBA", 
+           "MLST-C1" = "#AA2ED5", 
+           "MLST-C2" = "#A020F0", 
+           "MLST-C3" = "#5010BD", 
+           "ULST" = "darkblue", 
+           "Various" = "yellow")
 
 pal <- leaflet::colorFactor(ggpal,
-  domain = phases
+                            domain = phases
 )
 
-names(ggpal) <- phases
 
 
 ###########################################
