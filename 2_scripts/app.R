@@ -8,7 +8,7 @@ library(plotly)
 library(DT)
 
 
-LSTbase <- readr::read_csv(RCurl::getURL("https://raw.githubusercontent.com/yesdavid/LaacherSeeTephra_Shiny/refs/heads/main/1_data/LSTbase.csv"))
+LSTbase <- readr::read_csv(url("https://raw.githubusercontent.com/yesdavid/LaacherSeeTephra_Shiny/refs/heads/main/1_data/LSTbase.csv"))
 LSTbase$`Mean thickness (cm)` <- as.double(LSTbase$`Mean thickness (cm)`)
 LSTbase$`Distance from vent (km)` <- as.double(LSTbase$`Distance from vent (km)`)
 
