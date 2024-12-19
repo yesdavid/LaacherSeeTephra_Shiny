@@ -11,4 +11,4 @@ Coordinates are provided in WGS84; not all locations are precise.
 
 For additional datapoints or corrections, please contact f.riede@cas.au.dk
 
-An earlier version of this dataset was published in Tephrabase (https://www.tephrabase.org/laacherSee.html) and reported in Riede, Felix, Oliver Bazely, Anthony J. Newton, and Christine S. Lane. “A Laacher See-Eruption Supplement to Tephrabase: Investigating Distal Tephra Fallout Dynamics.” Quaternary International 246, no. 1–2 (2011): 134–44. https://doi.org/doi: 10.1016/j.quaint.2011.06.029.![image](https://github.com/user-attachments/assets/6efa7f64-4212-4aa4-8a0a-b1c53f46c6fc)
+An earlier version of this dataset was published in Tephrabase (https://www.tephrabase.org/laacherSee.html) and reported in Riede, Felix, Oliver Bazely, Anthony J. Newton, and Christine S. Lane. “A Laacher See-Eruption Supplement to Tephrabase: Investigating Distal Tephra Fallout Dynamics.” Quaternary International 246, no. 1–2 (2011): 134–44. https://doi.org/doi: 10.1016/j.quaint.2011.06.029.
